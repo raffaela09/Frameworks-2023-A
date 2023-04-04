@@ -63,8 +63,8 @@ i{
 
 h3{
     font-size: 14px;
-   font-weight: 100;
-   color: #999;
+    font-weight: 100;
+    color: #999;
 }
 
 
@@ -79,9 +79,39 @@ button {
     height: 35px;
     margin: 30px;
     border-radius: 20px;
-    background: linear-gradient(rgb(143, 127, 193),rgb(97, 61, 216) );
+    background: linear-gradient(rgb(120, 79, 243),rgb(161, 151, 197) );
     box-shadow: 5px 5px 10px #00000068;
     border: 0;
     cursor: pointer;
+    color: #fff;
 }
 
+button:hover{
+    filter: brightness(120%);
+}
+
+
+/* span{
+    color: rgb(226, 71, 71);
+    font-size: 15px;
+} */
+
+
+
+.error {
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 7px;
+    width: 280px;
+    height: 40px;
+    background: rgb(187, 181, 181);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.error i {
+    color:rgb(5, 5, 5);
+    margin-right: 6px;
+    
+}

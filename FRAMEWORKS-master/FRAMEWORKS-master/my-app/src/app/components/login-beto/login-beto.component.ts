@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class LoginBetoComponent {
 
+  isError = false;
+
+  login(){
+    this.isError = true;
+  }
+
 }

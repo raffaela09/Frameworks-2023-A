@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { LoginComponent } from './components/login/login.component';
-import { LoginBetoComponent } from './component/login-beto/login-beto.component';
+import { LoginBetoComponent } from './components/login-beto/login-beto.component';
 
 @NgModule({
   declarations: [
