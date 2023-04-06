@@ -113,3 +113,28 @@ i{
     cursor: pointer;
 }
  
+.error {
+    border: 2px solid rgb(237, 13, 140);
+    margin-top: 7px;
+    width: 280px;
+    height: 40px;
+    background: rgb(245, 183, 224);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.error i {
+    color:rgb(21, 20, 20);
+    margin-right: 6px;
+    
+}
+
+.header i {
+    color: rgb(255, 70, 153);
+}
+
+button:hover{
+    filter: brightness(110%);
+}

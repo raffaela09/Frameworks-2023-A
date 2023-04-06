@@ -10,14 +10,20 @@
 
         </div>
 
+        <div *ngIf="isCorrect" class="right">
+
+            <i class='bx bx-check'></i><span>Login aprovado!</span>
+
+        </div>
+
         <div class="input">
             <i class='bx bx-envelope-open'></i>
-            <input type="text" name="Email" id="Email" placeholder="E-mail">
+            <input type="text" name="Email" id="Email" placeholder="E-mail" [(ngModel)]="user"/>
         </div>
 
         <div class="input">
             <i class='bx bx-lock-alt'></i>
-            <input type="password" name="password" id="password" placeholder="Password"> <i class='bx bx-low-vision' ></i>
+            <input type="password" name="password" id="password" placeholder="Password" [(ngModel)]="pwd"/> <i class='bx bx-low-vision' ></i>
         </div>
 
             <div class="remember">

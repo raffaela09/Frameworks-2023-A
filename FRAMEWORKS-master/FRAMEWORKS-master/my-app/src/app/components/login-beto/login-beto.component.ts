@@ -9,8 +9,27 @@ export class LoginBetoComponent {
 
   isError = false;
 
+  isCorrect = false;
+
+  user = "" 
+
+  pwd = ""
+
   login(){
-    this.isError = true;
+    
+
+    if(this.user == "rafa" && this.pwd == "rafa") {
+      this.isCorrect = true;
+      this.isError = false;
+    }
+
+    else {
+      this.isCorrect = false;
+      this.isError = true;
+    }
+
+    console.log("User = " + this.user + " Password = " + this.pwd)
+
   }
 
 }
