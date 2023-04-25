@@ -7,13 +7,21 @@ import { HeroComponent } from './components/hero/hero.component';
 import { LoginComponent } from './components/login/login.component';
 import { LoginBetoComponent } from './components/login-beto/login-beto.component';
 import { FormsModule } from '@angular/forms';
+import { GridComponent } from './components/grid/grid.component';
+import { TrabalhoComponent } from './components/trabalho/trabalho.component';
+import { TrabSoloComponent } from './components/trab-solo/trab-solo.component';
+import { CreateLoginComponent } from './components/create-login/create-login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
     LoginComponent,
-    LoginBetoComponent
+    LoginBetoComponent,
+    GridComponent,
+    TrabalhoComponent,
+    TrabSoloComponent,
+    CreateLoginComponent
   ],
   imports: [
     BrowserModule,
